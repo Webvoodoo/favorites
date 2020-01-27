@@ -1,0 +1,34 @@
+/*
+Styles for user part
+*/
+/*hidden loader*/
+.slab-favorite-hidden img{
+    display: none;
+}
+/*link style*/
+.slab-favorite-link a {
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 2px dotted darkblue;
+}
+.slab-favorite-link a:hover {
+    border-bottom: none;
+}
+
+a.slab-favorites-del {
+    color: red;
+}
+
+a.slab-favorites-del:hover {
+    color: darkred;
+}
+.widget.widget_slab-favorites-widget {
+    margin-bottom: 21px;
+}
+.widget.widget_slab-favorites-widget ul {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+#slab-favorite-del-all {
+    margin: 0 auto;
+}
