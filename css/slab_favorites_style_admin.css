@@ -1,0 +1,16 @@
+/*
+Styles for admin part
+*/
+.slab-favorite-hidden {
+    display: none;
+}
+.cat-item span a {
+    color: red;
+}
+.cat-item span a:hover{
+    color: darkred;
+}
+#slab_favorites_dashboard ul {
+    max-height: 100px;
+    overflow-y: scroll;
+}
